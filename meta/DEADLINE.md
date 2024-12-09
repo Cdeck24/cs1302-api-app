@@ -7,14 +7,11 @@ Markdown is transformed into nice-looking HTML.
 
 ## Part 1.1: App Description
 
-> Please provide a friendly description of your app, including
-> the primary functions available to users of the app. Be sure to
-> describe exactly what APIs you are using and how they are connected
-> in a meaningful way.
+> This app is used to assist a user in finding where they can watch their
+> favorite movies. It takes their search and uses 2 APIs to pull information
+> about the movie and get the most common platforms they can watch it on.
 
-> **Also, include the GitHub `https` URL to your repository.**
-
-TODO WRITE / REPLACE
+> https://github.com/Cdeck24/cs1302-api-app
 
 ## Part 1.2: APIs
 
@@ -25,32 +22,33 @@ TODO WRITE / REPLACE
 > information are provided below. If your app uses more than two RESTful
 > JSON APIs, then include them with similar formatting.
 
-### API 1
+### API 1 OMDb API
 
 ```
-https://.../replace/me
+http://www.omdbapi.com/?t=Inception&apikey=95c8a566
 ```
+> Limited to 1000 requests per day.
 
-> Replace this line with notes (if needed) or remove it (if not needed).
-
-### API 2
+### API 2 - WatchMode API
 
 ```
-https://../replace/me
+https://api.watchmode.com/v1/title/1120728/sources/?apiKey=ooDknqZZ8bPZHQwGJH4XHffdemFaw48553tdgE2Y
 ```
-
-> Replace this line with notes (if needed) or remove it (if not needed).
+> limited to 1000 requests per month.
 
 ## Part 2: New
 
 > What is something new and/or exciting that you learned from working
 > on this project?
 
-TODO WRITE / REPLACE
+I learned more information on what APIs are, how to search them, and 
+how to parse information from their responses.
 
 ## Part 3: Retrospect
 
 > If you could start the project over from scratch, what do
 > you think might do differently and why?
 
-TODO WRITE / REPLACE
+I would probably do a different type of app because this one 
+gave me issues getting the apis to work together properly and 
+to fetch the information I wanted.
